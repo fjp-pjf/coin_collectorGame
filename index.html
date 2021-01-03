@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Coin Game</title>
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+</head>
+
+<body>
+
+  <div id="scoreBoard">
+
+  </div>
+
+  <div id="timer">
+    Time Left : <span id="minutes"></span> : <span id="seconds"></span>
+  </div>
+
+  <img id="player" src="https://media.tenor.com/images/0791eb3858075aca85eed5ecfe08c778/tenor.gif" alt="" height="30%" width="18%">
+  <img id="coin" src="https://gifimage.net/wp-content/uploads/2017/11/gold-coin-gif-11.gif" alt="error" height="8%" width="5%">
+  
+  
+  <button class="ArrowLeft"><i id="ArrowLeft" class="fas fa-arrow-alt-circle-left"></i></button>
+  <button class="ArrowRight"><i id="ArrowRight" class="fas fa-arrow-alt-circle-right"></i></button>
+  <button class="ArrowDown"><i id="ArrowDown" class="fas fa-arrow-alt-circle-down"></i></button>
+  <button class="ArrowUp"><i id="ArrowUp" class="fas fa-arrow-alt-circle-up"></i></button>
+
+ <audio id="coinSound" src="preview.mp3"></audio>
+ <audio id="winSound" src="timesUp.mp3"></audio>
+
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
